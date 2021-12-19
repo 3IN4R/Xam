@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: FjallaOne-Regular;
+    src: url(fonts/FjallaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Staathliches-Regular;
+    src: url(fonts/Staatliches-Regular.ttf);
+}
+/* Navbar */
+.bg{
+    background-image: url(img/tecup.jpg);
+    background-size: cover;
+    height: 50rem;
+}
+.simpel{
+    background-color: black;
+}
+.navi{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0rem 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navitm{
+    list-style: none;
+    margin-right: 2rem;
+}
+.navitm a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navitm:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+.log0{
+    width: 100px;
+    height: 80px;
+}
+.log0:hover{
+    transition: all 0.5s ease 0s;
+    transform: scale(1.2);
+}
+
+.menuitm:hover{
+    transition: all 0.3s ease 0s;
+    color: rgb(53, 177, 47);
+}
+
+.content2{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    padding: 10rem 15rem;
+    margin-left: 30rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+.headrh{
+    margin-bottom: 2.5rem;
+    font-size: 5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+}
+.rtext2{
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+}
+/* Nav End*/
+
+/* Main home */
+.content1{
+    color:rgb(255, 113, 61);
+    background-image: url(img/relax.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    height: 50rem;
+    font-family: FjallaOne-Regular;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text2{
+    padding: 10rem 15rem;
+    margin-right: 30rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.headr{
+    margin-bottom: 2.5rem;
+    font-size: 5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+}
+.rtext{
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+    
+}
+.btnwlns{
+    background-color: rgb(255, 113, 61);
+    font-size: 1.6rem;
+    border-radius: 1.0rem;
+}
+.wln{
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.wln:hover{
+    transition: all 0.3s ease 0s;
+    color: #fff;
+}
+
+/* Main Shop*/
+.shop{
+    background-color: grey;
+}
+.b1{
+    height: 8rem;
+    width: 14rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+.b1:hover{
+    transition: all 0.5s ease 0s;
+    transform: scale(1.5);
+}
+.contenttea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.texttea{
+    padding: 1rem 15rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+.headrtea{
+    color: rgb(255, 113, 61);
+    padding-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+    flex-shrink: 2;
+}
+.texttea{
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    font-family: FjallaOne-Regular;
+    flex-shrink: 2;
+}
+.btnbuy{
+    background-color: rgb(255, 113, 61);
+    font-size: 1.6rem;
+    border-radius: 1.0rem;
+}
+
+/* Main Welness*/
+.contentyog{
+    color:rgb(255, 113, 61);
+    background-image: url(img/yoga.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50rem;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textyog{
+    padding: 10rem 15rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.headyog{
+    padding-left: 25rem;
+    font-size: 5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+}
+.yoggraph{
+    padding-left: 25rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: FjallaOne-Regular;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-clip: content-box;
+    border-radius: 2rem;
+}
+
+.contentsoc{
+    color:rgb(255, 113, 61);
+    background-image: url(img/couple.jpg);
+    background-size: cover;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textsoc{
+    padding: 10rem 15rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.headsoc{
+    padding-left: 0rem;
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: FjallaOne-Regular;
+}
+.socgraph{
+    padding-left: 0rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    font-family: FjallaOne-Regular;
+}
+
+/*Faq & About*/
+.story{
+    color:black;
+    font-family: FjallaOne-Regular;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textstory{
+    padding: 5rem 0rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.headstory{
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.storygraph{
+    padding: 0px 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: white;
+    background-color: rgba(255, 113, 61, 1.0);
+    background-clip: content-box;
+    border-radius: 2rem;
+}
+
+
+
+/* Footer */
+footer{
+    color: #fff;
+    background-color: black;
+}
+
+.fcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.flex-row{
+    margin-bottom: 1rem;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+.ftem{
+    list-style: none;
+    padding: 0 15px;
+}
+.fthing{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.Contact{
+    margin-bottom: 1rem;
+}
+
+/** Footer end ***/
+
+/*Mobile*/
+@media (max-width: 700px){
+.bg{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 28rem;
+
+}
+.navitm:first-child{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.navitm{
+    list-style: none;
+}
+.navi{
+    justify-content: space-evenly;
+}
+/* Navi end*/
+.content2{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    padding: 2rem 5rem;
+    margin-left: 18rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+.headrh{
+    margin-bottom: 0rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+}
+.rtext2{
+    margin-bottom: 2.0rem;
+    font-size: 1.0rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+}
+.btnwlns{
+    background-color: rgb(255, 113, 61);
+    font-size: 1.6rem;
+    border-radius: 1.0rem;
+}
+.wln{
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/*Mainhome*/
+.content1{
+    color:rgb(255, 113, 61);
+    background-image: url(img/relax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    height: 25rem;
+    font-family: FjallaOne-Regular;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text2{
+    padding: 2rem 5rem;
+    margin-right: 18rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.headr{
+    margin-bottom: 0rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+}
+.rtext{
+    margin-bottom: 1.0rem;
+    font-size: 1.0rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+    
+}
+.btnwlns{
+    background-color: rgb(255, 113, 61);
+    font-size: 1.6rem;
+    border-radius: 1.0rem;
+}
+.wln{
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* Wellness*/
+.contentyog{
+    color:rgb(255, 113, 61);
+    background-image: url(img/yoga.jpg);
+    background-size: contain;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    height: 30rem;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textyog{
+    padding: 5rem 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.headyog{
+    padding-left: 12rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: FjallaOne-Regular;
+}
+.yoggraph{
+    margin-left: 12rem;
+    padding-left: 0rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.0rem;
+    font-family: FjallaOne-Regular;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-clip: content-box;
+    border-radius: 0.5rem;
+}
+
+.contentsoc{
+    color:rgb(255, 113, 61);
+    background-image: url(img/couple.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textsoc{
+    padding: 5rem 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.headsoc{
+    padding-left: 0rem;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-family: FjallaOne-Regular;
+}
+.socgraph{
+    padding-left: 0rem;
+    font-size: 1.0rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2rem;
+    font-family: FjallaOne-Regular;
+}
+/* Selection*/
+.texttea{
+    padding: 1rem 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+}
+/*Faq & about*/
+}
